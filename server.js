@@ -1,7 +1,9 @@
 var http = require('http');
-var server = http.createServer(function(request, response){
+var server = http.createServer(function(req, res){
 
-  response.end('helo node');
+  res.writeHead(200, {'Content-Type':'text/html'});
+  res.write('helo <b>Node</b>');
+  res.end();
 });
 
 var port = 8000;
