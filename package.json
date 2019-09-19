@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/audeta35/Node-JS/issues"
   },
-  "homepage": "https://github.com/audeta35/Node-JS#readme"
+  "homepage": "https://github.com/audeta35/Node-JS#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
 }
