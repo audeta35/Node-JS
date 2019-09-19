@@ -1,11 +1,10 @@
 var http = require('http');
-var server = http.createServer(function (req, res) {
+var server = http.createServer(function(request, response){
 
-  res.end('Hai, selamat datang di server node js');
+  response.end('helo node');
 });
 
 var port = 8000;
-
 server.listen(port);
 
 console.log('server berjalan di http://localhost:'+port);
